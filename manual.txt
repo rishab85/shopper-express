@@ -1,0 +1,36 @@
+Get requests
+
+product
+
+/products
+/products/:id
+
+orders 
+
+/orders
+/orders/:id
+
+
+Post Request
+
+product
+/products
+{
+  name : 
+  price :
+  product_image : 
+}
+
+/orders
+{
+ productId : 
+ quantity :	
+}
+
+put 
+/products/:id
+
+[{
+ propName : "name"
+ value : "hari"
+}]
